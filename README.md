@@ -10,7 +10,8 @@ Suppose you are willing to use the PubMedDataset-1.0-SNAPSHOT in your project.
 
 In your project pom.xml:
 
-* Add to the following code to <repositories>:
+* Add to the following code to ```xml<repositories>```:
+```xml
     <repositories>
     ...
         <repository>
@@ -19,8 +20,10 @@ In your project pom.xml:
         </repository>
     ...
     </repositories>
+```
 
-* And add the name and version of the project you want to use in <dependecies>:
+* And add the name and version of the project you want to use in ```xml<dependecies>```:
+```xml
     <dependencies>
         ...
         <dependency>
@@ -30,6 +33,6 @@ In your project pom.xml:
         </dependency>
         ...
     </dependencies>
-
+```
 That`s it, the .jar will be automatically downladed to your project dependencies and will be ready to use.
 
